@@ -1,0 +1,350 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----------------------------------------------------------navbar------------------------------------ */
+.navbar-brand {
+
+    border: 1px solid black;
+    padding: 2rem;
+    font-size: 2.1rem !important;
+    box-shadow: inset 10px 5px 20px gray;
+}
+
+.nav-link {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#navbarNav ul li a:hover {
+
+    border-bottom: 1px solid red;
+}
+
+/* -------------------------------------------------------home-image--------------------------------- */
+.home-image {
+
+    /* border: 1px solid black; */
+    background-color: #101010;
+}
+
+.home-image img {
+
+    border-radius: 50px;
+    box-shadow: 10px 5px 20px black;
+}
+
+.home-image img {
+
+    transform: scale(1.1);
+    margin-left: 100px;
+}
+
+.btn1 {
+
+    border: 1px solid black !important;
+    margin-left: 5px;
+    box-shadow: inset 5px 5px 20px gray !important;
+}
+
+h5 {
+    width: 20ch;
+    animation: typing 4s steps(19), blink .5s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 15px;
+}
+
+@keyframes typing {
+
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+
+    30% {
+        border-color: transparent;
+    }
+}
+
+/* -------------------------------------------------------skills--------------------------------------- */
+.skills {
+
+    /* border: 1px solid black; */
+    background-color: #101010;
+}
+
+.skills-cols {
+
+    /* border: 1px solid green; */
+}
+
+progress {
+    accent-color: rgb(92, 80, 255);
+}
+
+progress[value] {
+    width: 550px;
+    height: 20px;
+}
+
+/* -------------------------------------------------------------certificate--------------------------------- */
+.certificate {
+
+    border: 1px solid black;
+    background-color: #101010;
+}
+
+.certificate-cols {
+    display: flex;
+    justify-content: center;
+
+}
+
+.certificate-cols img {
+
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 4px #FF995080;
+    transition: all ease .5s;
+}
+
+.certificate-cols img:hover {
+
+    transform: scale(0.9);
+}
+/* -----------------------------------------------------------cource------------------------------------- */
+
+.cource-cols{
+
+    display: flex;
+    justify-content: center;
+}
+
+/* -----------------------------------------------About-------------------------------------  */
+.About {
+
+    border: 1px solid black;
+    background-color: #101010;
+}
+
+.About img {
+    transform: scale(0.9);
+
+}
+
+.btn2 {
+
+    border-radius: 30px !important;
+    padding: 1rem;
+    width: 200px;
+
+}
+
+.info-cols i {
+
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: #515151;
+
+}
+
+/* -------------------------------------------------project-------------------------------------------  */
+.project {
+
+    background-color: #101010;
+    border: 1px solid black;
+}
+
+.project-cols {
+
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+
+.project-cols img {
+
+    transform: scale(0.9);
+}
+
+.card {
+
+    transition: all .5s;
+}
+
+.card:hover {
+
+    box-shadow: 10px 10px 5px brown;
+    transform: scale(0.9);
+
+}
+
+.project a {
+
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+/* --------------------------------------------------------------------contact-------------------------- */
+.contact {
+
+    border: 1px solid black;
+    background-color: #101010;
+}
+
+.vi {
+
+    border-left: 1px solid white;
+    margin-left: 80px;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-control input {
+
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus {
+
+    outline: 0;
+
+}
+
+.input-control.success input {
+
+    background-color: #09c372;
+}
+
+.input-control.error input {
+
+    border-color: #ff3860;
+}
+.input-control .error{
+
+    color:  #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+
+.text {
+
+    padding: 10px;
+    width: 300px;
+    margin-left: 10px;
+    background-color: #101010;
+    color: white;
+}
+
+.number {
+
+    padding: 10px;
+    width: 610px;
+    margin-left: 10px;
+    background-color: #101010;
+    color: white;
+}
+
+.message {
+
+    padding: 10px;
+    width: 610px;
+    margin-left: 10px;
+    background-color: #101010;
+    color: #515151;
+    color: white;
+
+}
+
+.btn3 {
+
+    margin-left: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    background-color: #009e66;
+}
+input:hover{
+
+    border: #009e66;
+}
+textarea:hover{
+
+    border: #009e66;
+
+}
+#result{
+
+    color: red;
+    margin-left: 10px;
+}
+/* -----------------------------------------------------------footer---------------------------------------------- */
+#facebook {
+
+    color: blue;
+}
+
+#insta {
+
+    color: purple;
+}
+
+#youtube {
+
+    color: red;
+}
+
+#whatsapp {
+
+    color: green;
+}
